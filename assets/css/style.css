@@ -338,6 +338,9 @@ footer a {
 
     .btn-Banner {
         padding: 13px 109px;
+        width: 100% !important;
+        height: auto !important;
+        display: block;
     }
 
     /*Altera visibilidades da seção de Tecnólogias*/
@@ -406,6 +409,7 @@ footer a {
     .newsletter-Submit {
         padding: 13px 112px;
         margin-top: 10px;
+        width: 100%;
     }
 
     /*Footer*/
