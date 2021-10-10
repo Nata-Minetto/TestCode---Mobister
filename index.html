@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>TestCode - Rascunho</title>
+    <title>TestCode - Natã Minetto</title>
 
     <!-- Meta tags -->
     <meta charset="utf-8">
@@ -8,13 +8,15 @@
 
     <!--Fonte Montserrat-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
     
     <!-- CSS e Bootstrap -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!-- Inserção dos Font Awesome Icons -->
-    <script src="https://kit.fontawesome.com/ab77944282.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -22,6 +24,10 @@
             <div class="row">
                 <div class="col-md-12">
                     <img class="logo" src="https://i.ibb.co/w0jTZ6p/Marca-Mobister-1.png">
+
+                    <div class="nav-Itens">
+                        <i class="fas fa-bars"></i>
+                    </div>
                 </div>
             </div>
         </div>
@@ -55,7 +61,7 @@
                 </div>
             </div>
 
-            <div class="row itens-Tecnologia">
+            <div class="row itens-Tecnologia desktop">
                 <div class="col-md-3">
                     <div class="card-Tecnologias">
                         <div class="icone-Card-Tecnologias">
@@ -101,7 +107,7 @@
                 </div>
             </div>
 
-            <div class="row itens-Tecnologia">
+            <div class="row itens-Tecnologia desktop">
                 <div class="col-md-3">
                     <div class="card-Tecnologias">
                         <div class="icone-Card-Tecnologias">
@@ -146,6 +152,98 @@
                     <hr class="separador">
                 </div>
             </div>
+
+            <div class="row itens-Tecnologia mobile">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="card-Tecnologias">
+                            <div class="icone-Card-Tecnologias">
+                                <i class="fab fa-php"></i>
+                            </div>
+    
+                            <h3>PHP</h3>
+                        </div>
+                        <hr class="separador">
+                    </div>
+    
+                    <div class="item">
+                        <div class="card-Tecnologias">
+                            <div class="icone-Card-Tecnologias">
+                                <i class="fab fa-wordpress"></i>
+                            </div>
+    
+                            <h3>Wordpress</h3>
+                        </div>
+                        <hr class="separador">
+                    </div>
+    
+                    <div class="item">
+                        <div class="card-Tecnologias">
+                            <div class="icone-Card-Tecnologias">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+    
+                            <h3>Javascript</h3>
+                        </div>
+                        <hr class="separador">
+                    </div>
+    
+                    <div class="item">
+                        <div class="card-Tecnologias">
+                            <div class="icone-Card-Tecnologias">
+                                <i class="fab fa-react"></i>
+                            </div>
+    
+                            <h3>React JS</h3>
+                        </div>
+                        <hr class="separador">
+                    </div>
+
+                    <div class="item">
+                        <div class="card-Tecnologias">
+                            <div class="icone-Card-Tecnologias">
+                                <i class="fab fa-aws"></i>
+                            </div>
+    
+                            <h3>Plataforma de serviços AWS</h3>
+                        </div>
+                        <hr class="separador">
+                    </div>
+
+                    <div class="item">
+                        <div class="card-Tecnologias">
+                            <div class="icone-Card-Tecnologias">
+                                <i class="fab fa-html5"></i>
+                            </div>
+    
+                            <h3>HTML 5</h3>
+                        </div>
+                        <hr class="separador">
+                    </div>
+
+                    <div class="item">
+                        <div class="card-Tecnologias">
+                            <div class="icone-Card-Tecnologias">
+                                <i class="fab fa-sass"></i>
+                            </div>
+    
+                            <h3>SCSS</h3>
+                        </div>
+                        <hr class="separador">
+                    </div>
+                    
+                    <div class="item">
+                        <div class="card-Tecnologias">
+                            <div class="icone-Card-Tecnologias">
+                                <i class="fab fa-laravel"></i>   
+                            </div>
+    
+                            <h3>Laravel</h3>
+                        </div>
+                        <hr class="separador">
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -153,11 +251,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 newsletter-Info">
-                    <div class="row">
+                    <div class="newsletter-Icone">
                         <i class="fa fa-envelope-o"></i>
+                    </div>
 
-                        <p>Assine a nossa newsletter e receba todas as novidades em seu e-mail</p>
-                    </div>                    
+                    <p>Assine a nossa newsletter e receba todas as novidades em seu e-mail</p>                    
                 </div>
 
                 <div class="col-md-6 newsletter-Form">
@@ -180,15 +278,23 @@
                     <p>© 2021 Mobister. Todos os direitos reservados.</p>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-8">
                     <a href="#">Política de Privacidade</a>
-                </div>
 
-                <div class="col-md-4">
                     <p class="change-Align">mobister</p>
                 </div>
             </div>
         </div>
     </footer>
+
+    <!-- CDN jQuery 3.2.1 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Inserção dos Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/ab77944282.js" crossorigin="anonymous"></script>
+
+    <!-- CDN Owl Carousel2 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
